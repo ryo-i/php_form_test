@@ -4,4 +4,10 @@
 	<input type="texxt" name="ikku">
 	<input type="submit" name="yomu" value="詠む">
 </form>
+
+<p><?php 
+$ikku = $_POST["ikku"];
+echo $ikku;	
+?></p>
 <p>by <a href="https://www.i-ryo.com" target="_blank">イイダリョウ</a></p>
+
