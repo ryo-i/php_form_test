@@ -15,7 +15,7 @@
 </form>
 </section>
 <section class="your_ikku">
-<h2>あなたの一句</h2>
+<h2>あなたの一句：</h2>
 <p><?php 
 $ikku = $_POST["ikku"];
 echo $ikku;	
